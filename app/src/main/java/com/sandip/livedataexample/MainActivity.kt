@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         mainViewModel.mutableLiveData.observe(this, Observer {
 
-            val quoteObject = Quote(it,"https://spurzine.com/wp-content/uploads/2021/01/cristiano-ronaldo-portugal.jpg")
+            val quoteObject = Quote(it,"https://th.bing.com/th/id/OIP.WgQkUtXZXu_OwOJAlYB-vQHaJQ?pid=ImgDet&rs=1")
             binding.quote = quoteObject
 
         })
@@ -35,3 +35,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+

@@ -48,7 +48,7 @@
         android:id="@+id/updatebtn"
         android:layout_width="150dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="130dp"
         android:text="@string/update"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
